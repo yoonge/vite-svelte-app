@@ -1,7 +1,7 @@
 {
   "name": "vite-svelte-app",
   "version": "0.0.0",
-  "description": "A vite created application with typescript + svelte template support.",
+  "description": "A Vite created application with TypeScript + Svelte template.",
   "author": "Yoonge <7884008@qq.com>",
   "private": true,
   "type": "module",

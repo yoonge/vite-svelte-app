@@ -2,7 +2,7 @@
   // import Counter from './lib/Counter.svelte'
   import Todolist from './lib/Todolist.svelte'
   import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
+  // import viteLogo from '/vite.svg'
 </script>
 
 <main>
