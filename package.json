@@ -1,23 +1,23 @@
 {
-  "name": "vite-svelte-app",
-  "version": "0.0.0",
-  "description": "A Vite created application with TypeScript + Svelte template.",
   "author": "Yoonge <7884008@qq.com>",
-  "private": true,
-  "type": "module",
+  "description": "A Vite created application with TypeScript + Svelte template.",
   "keywords": [
     "Svelte",
     "TypeScript",
     "Vite"
   ],
+  "name": "vite-svelte-app",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "dev": "vite",
+    "format": "prettier --plugin-search-dir . --write .",
+    "lint": "prettier --plugin-search-dir . --check . && eslint .",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
